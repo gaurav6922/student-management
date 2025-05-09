@@ -1,0 +1,121 @@
+/* Apple-Inspired Clean UI */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  color: #111;
+  font-size: 16px;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: #fff;
+  padding: 2rem;
+  border-radius: 20px;
+  box-shadow: 0 0 40px rgba(0,0,0,0.05);
+}
+
+h1, h2 {
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+input, select {
+  width: 100%;
+  padding: 12px 14px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 1rem;
+  transition: 0.3s ease;
+}
+
+input:focus, select:focus {
+  border-color: #007aff;
+  outline: none;
+  background-color: #f0f8ff;
+}
+
+button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 14px;
+  background-color: #007aff;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background-color: #005ecb;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+table th, table td {
+  padding: 12px;
+  border-bottom: 1px solid #e0e0e0;
+  text-align: left;
+}
+
+.actions a {
+  margin-right: 12px;
+  text-decoration: none;
+  color: #007aff;
+  font-weight: 500;
+}
+
+.actions a:hover {
+  text-decoration: underline;
+}
+
+.alert {
+  padding: 12px;
+  background-color: #d4edda;
+  color: #155724;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #c3e6cb;
+}
+
+.search-bar {
+  width: 500px;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.form-container {
+  max-width: 480px;
+  margin: 100px auto;
+  padding: 36px;
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 28px;
+  color: #1d1d1f;
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
