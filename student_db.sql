@@ -41,7 +41,7 @@ CREATE TABLE `students` (
 --
 
 INSERT INTO `students` (`id`, `name`, `email`, `phone`, `course`, `created_at`) VALUES
-(1, 'Gaurav', 'gauravarora6922@gmail.com', '9818771973', 'Btech', '2025-05-09 18:01:11'),
+(1, 'Gaurav', 'gauravarora6922@gmail.com', '9818700003', 'Btech', '2025-05-09 18:01:11'),
 (4, 'Rahul', 'rahul@ic.com', '877898907768', 'BBA', '2025-05-09 19:40:55');
 
 --
